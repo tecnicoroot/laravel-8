@@ -1,0 +1,20 @@
+composer create-project --perfer-dist laravel/laravel curso-laravel-8
+Após criar o projeto realizar alterações no arquivo:
+	config/app.php
+	timezone => 'America/Sao_Paulo
+
+versionando
+	git config --global user.name "Seunome"
+	git config --global user.email seuemail@.com
+
+	git init, inicia o git no diretório do projeto.
+
+	alterar o arquivo .gitignore, adicionando uma linha *.log, isto evita que arquivos de log sejam comitados.
+	git add --all, adiciona arquivo para commit
+	git commit "mensagem", adiciona mensagem para o commit
+
+	no github cria um novo repositório, acessar https://github.com/
+	
+	git remote add origin https://github.com/usuario/repositorio, adiciona nosso repositório.
+	git push origin master, up o código para o git
+-----------------------------------------------------------------------

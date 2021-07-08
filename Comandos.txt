@@ -14,7 +14,9 @@ versionando
 	git commit "mensagem", adiciona mensagem para o commit
 
 	no github cria um novo repositório, acessar https://github.com/
-	
+
 	git remote add origin https://github.com/usuario/repositorio, adiciona nosso repositório.
 	git push origin master, up o código para o git
------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+php artisan make:model Post -mc, este comando cria os arquivos de model, migration e controller.
